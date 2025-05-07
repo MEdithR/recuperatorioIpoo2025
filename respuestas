@@ -1,0 +1,27 @@
+1. Falso
+2. a.b.d.e.h
+3. public function __construct($numero, $monto_cuota, $monto_interes, $canceladas){
+
+   $this->numero=$numero;
+
+   $this->monto_cuota=$monto_cuota;
+
+   $this->monto_interes=$monto_interes;
+   $this->canseladas=false;
+
+}
+4.Falso
+5.public funtion darMontoFinalCuota(){
+
+  $monto_final=$this->getMonto_cuota+$this->getMonto_interes;
+
+
+return $monto_final;
+}
+
+6. public function __construc($monto,$cantidadDcuotas,$tazaDInt,$objPersona){
+     $this->id = self::
+    $this->monto=$monto;
+    $this->cantidadDeCuotas=$cantidadDcuotas;
+    $this->tazaDeInteres=$tazaDInt;
+    $this->objPersona=$objPersona;
